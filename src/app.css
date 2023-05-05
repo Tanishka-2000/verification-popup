@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+button.openPopup{
+    background-color: #F99B7D;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 30px;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-block: 50px;
+}

@@ -1,0 +1,79 @@
+.verification-popUp{
+    width: 500px;
+    padding: 50px;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 1px #aaa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.close-popup{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.close-popup span{
+    font-size: 2rem;
+}
+
+.verification-popUp h1{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+form, button.verify{
+    margin-top: 20px;
+}
+
+p{
+    color: #666;
+}
+
+.otp-code input{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.form-actions{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-actions button{
+    color: rgb(0, 136, 255);
+    font-weight: 500;
+    font-size: 1.1rem;
+    border: none;
+    background-color: transparent;
+}
+
+.form-actions button:hover{
+    color: rgb(120, 33, 234);
+    cursor: pointer;
+}
+
+button.verify{
+    padding: 20px;
+    background-color: rgb(118, 208, 14);
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+}
